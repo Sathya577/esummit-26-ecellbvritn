@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .particles-container {
   position: fixed;
   inset: 0;
@@ -10,17 +10,5 @@
 
   overflow: hidden;
   z-index: -1;
-=======
-.particles-container {
-  position: fixed;
-  inset: 0;
 
-  width: 100vw;
-  height: 100vh;
-
-  background-color: black;
-
-  overflow: hidden;
-  z-index: -1;
->>>>>>> f28f9da7251204656258f8394977c7a1fc1d019a
 }
