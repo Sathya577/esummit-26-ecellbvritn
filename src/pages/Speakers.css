@@ -1,0 +1,41 @@
+
+.about-wrapper{
+  position:relative;
+  height:100vh;
+  overflow:hidden;
+}
+
+
+
+/* Coming soon text */
+
+.coming-soon{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+  z-index:2;
+}
+
+.coming-soon h1{
+  font-size:clamp(40px,6vw,80px);
+  font-weight:800;
+
+  background:linear-gradient(
+    90deg,
+    #ff7a18,
+    #ff9a3c
+  );
+
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+
+  letter-spacing:2px;
+}
+
+.coming-soon p{
+  margin-top:10px;
+  font-size:18px;
+  color:#aaa;
+}
