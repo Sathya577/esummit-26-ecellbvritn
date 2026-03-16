@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .ripple-grid-container {
   position: fixed;
   top: 0;
@@ -10,4 +11,18 @@
 
   overflow: hidden;
   z-index: -1;
+=======
+.ripple-grid-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: black;
+
+  overflow: hidden;
+  z-index: -1;
+>>>>>>> f28f9da7251204656258f8394977c7a1fc1d019a
 }
