@@ -16,6 +16,7 @@ const events = [
   team: "All",
   dates: "Date:26th March",
   price: "Free",
+   whatsapp: "https://chat.whatsapp.com/IdUZ6kzgZLcFfKHmJ3fJHK",
   paymentRequired: false,
   prize: "",
 
@@ -39,9 +40,11 @@ const events = [
   title: "IPL Auction",
   desc1: "Run your IPL team using analytics.",
   desc: "Experience the thrill of team building and strategic bidding with our IPL Auction simulation. Inspired by the Indian Premier League player auction, this event challenges participants to step into the shoes of franchise owners and build the ultimate cricket squad within a limited budget. Participants will analyze player statistics, manage finances, and compete against other teams in an intense bidding battle to secure the best lineup. Success in this event requires sharp decision-making, negotiation skills, and smart strategy—just like real IPL franchises. Whether you're a cricket enthusiast or a data-driven strategist, this event offers an exciting opportunity to test your skills and compete for glory in the world of fantasy cricket management.",
+ 
   team: "6",
   price: "₹1000",
   dates: "Dates: 25th & 26th March",
+  whatsapp: "https://chat.whatsapp.com/CEv9Ntcj18oISKIRJ4OsQ2?mode=gi_t",
    paymentRequired: true,
   prize: "₹7K",
 
@@ -263,6 +266,7 @@ const events = [
   desc1: "Create compelling ad campaigns and outbid competitors in this thrilling marketing battle. ",
   desc:"This event focuses on promoting women entrepreneurship and innovation. Participants will create a concept or advertisement for a women-led brand, product, or startup idea, highlighting its impact and message. The objective is to showcase creativity, marketing strategy, and storytelling while empowering and supporting women in business. Judging will be based on creativity, clarity of message, and relevance to the theme",
   team: "4-6",
+  whatsapp:"https://chat.whatsapp.com/G5q9GdeXWDw3xIorGwYeZr?mode=gi_t",
   price: "₹400",
   paymentRequired: true,
   prize: "₹5K",
@@ -451,6 +455,7 @@ const events = [
   desc: "A high-energy startup pitching event where aspiring entrepreneurs present their innovative ideas to a panel of investors, founders, and industry experts. Participants will showcase their solutions, market potential, and business models while competing for recognition and valuable feedback. The session aims to encourage innovation, entrepreneurial thinking, and real-world startup learning. ",
   team: "3-4",
   price: "₹400",
+  whatsapp:"https://chat.whatsapp.com/HgQSFX8LJ7OAG5mJQulnqY?mode=gi_t",
   paymentRequired: true,
   prize: "₹5K",
 
@@ -578,6 +583,7 @@ const events = [
   desc: "Investment Arena is an interactive business simulation where participants step into the role of investors and strategic decision-makers. Teams analyze market clues, evaluate companies, and make informed investment choices in a competitive environment. The event also includes negotiation rounds where teams interact, compete, and form strategies against rival companies. It encourages critical thinking, teamwork, and adaptability. The objective is to develop analytical, strategic, and negotiation skills in a simulated market setting.",
   team: "3-4",
   price: "₹300",
+    whatsapp:"https://chat.whatsapp.com/BQKTkODBJH24GlPst51mhu?mode=gi_t",
   dates: "Dates: 26th March",
   paymentRequired: true,
   prize: "₹5K",
@@ -707,6 +713,7 @@ const events = [
   desc: "Brand Wars is an exciting debate-style competition where teams represent rival brands from the same industry. Participants research their assigned brand, develop compelling arguments, and engage in a structured debate against the opposing team. The event encourages critical thinking, persuasive communication, and strategic analysis of brand positioning. Teams will be judged on the strength of their arguments, creativity, and ability to effectively represent their brand's unique value proposition.",
   team: "3-4",
   dates: "Dates: 25th & 26th March",
+  whatsapp:"https://chat.whatsapp.com/ILQH6RsscvAEpzmj5x5GwH?mode=gi_t",
   price: "₹400",
   paymentRequired: true,
   prize: "₹5K",
@@ -871,18 +878,24 @@ const handleSubmit = async (e) => {
     data[key] = formData.get(key);
   });
 
-  try {
-    await fetch("https://script.google.com/macros/s/AKfycbxstKFGAtH9mlN8Qy76gpegmM89m5jObzmykGTFNIPIg3HuScvNLLzG5swQ4jx0vsj9/exec", {
-      method: "POST",
-      body: JSON.stringify(data)
-    });
+ try {
+  await fetch("https://script.google.com/macros/s/AKfycbxstKFGAtH9mlN8Qy76gpegmM89m5jObzmykGTFNIPIg3HuScvNLLzG5swQ4jx0vsj9/exec", {
+    method: "POST",
+    body: JSON.stringify(data)
+  });
 
-    alert("Registration submitted successfully!");
-    setShowForm(false);
+  alert("Registration submitted successfully!");
 
-  } catch (err) {
-    alert("Submission failed");
+  // 👉 dynamic WhatsApp link
+  if (selectedEvent?.whatsapp) {
+    window.open(selectedEvent.whatsapp, "_blank");
   }
+
+  setShowForm(false);
+
+} catch (err) {
+  alert("Submission failed");
+}
 };
   const filtered = events.filter((event) =>
     event.title.toLowerCase().includes(search.toLowerCase())
