@@ -336,6 +336,36 @@ const events = [
     type: "select",
     options: ["1", "2", "3", "4"]
   },
+  {
+    label: "Team Member 4 Name",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 4 Email",
+    type: "email"
+  },
+
+  {
+    label: "Team Member 4 Phone",
+    type: "tel"
+  },
+
+  {
+    label: "Team Member 4 College",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 4 Branch",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 4 Year",
+    type: "select",
+    options: ["1", "2", "3", "4"]
+  },
   
   
   {
@@ -360,7 +390,7 @@ const events = [
   desc: "Investment Arena is an interactive business simulation where participants step into the role of investors and strategic decision-makers. Teams analyze market clues, evaluate companies, and make informed investment choices in a competitive environment. The event also includes negotiation rounds where teams interact, compete, and form strategies against rival companies. It encourages critical thinking, teamwork, and adaptability. The objective is to develop analytical, strategic, and negotiation skills in a simulated market setting.",
   team: "3-4",
   price: "₹300",
-    whatsapp:"https://chat.whatsapp.com/BQKTkODBJH24GlPst51mhu?mode=gi_t",
+  whatsapp:"https://chat.whatsapp.com/BQKTkODBJH24GlPst51mhu?mode=gi_t",
   dates: "Dates: 26th March",
   paymentRequired: true,
   prize: "₹5K",
@@ -664,7 +694,7 @@ const handleSubmit = async (e) => {
   alert("Registration submitted successfully!");
 
   // 👉 OPEN WHATSAPP GROUP HERE
-  window.open("https://chat.whatsapp.com/BQKTkODBJH24GlPst51mhu?mode=gi_t", "_blank");
+  window.open(selectedEvent.whatsapp, "_blank");
 
   setShowForm(false);
 
