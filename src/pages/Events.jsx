@@ -208,6 +208,36 @@ const events = [
     type: "select",
     options: ["1", "2", "3", "4"]
   },
+  {
+    label: "Team Member 6 Name",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 6  Email",
+    type: "email"
+  },
+
+  {
+    label: "Team Member 6 Phone",
+    type: "tel"
+  },
+
+  {
+    label: "Team Member 6 College",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 6 Branch",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 6 Year",
+    type: "select",
+    options: ["1", "2", "3", "4"]
+  },
   
   {
     label: "Transaction ID",
