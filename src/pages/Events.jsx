@@ -496,6 +496,36 @@ const events = [
     type: "select",
     options: ["1", "2", "3", "4"]
   },
+   {
+    label: "Team Member 4 Name",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 4 Email",
+    type: "email"
+  },
+
+  {
+    label: "Team Member 4 Phone",
+    type: "tel"
+  },
+
+  {
+    label: "Team Member 4 College",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 4 Branch",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 4 Year",
+    type: "select",
+    options: ["1", "2", "3", "4"]
+  },
   
   
   {
@@ -623,6 +653,36 @@ const events = [
 
   {
     label: "Team Member 3 Year",
+    type: "select",
+    options: ["1", "2", "3", "4"]
+  },
+   {
+    label: "Team Member 4 Name",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 4 Email",
+    type: "email"
+  },
+
+  {
+    label: "Team Member 4 Phone",
+    type: "tel"
+  },
+
+  {
+    label: "Team Member 4 College",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 4 Branch",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 4 Year",
     type: "select",
     options: ["1", "2", "3", "4"]
   },
