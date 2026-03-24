@@ -415,7 +415,7 @@ const events = [
   ]
 },
 
-{
+/* {
   slug: "Brand Wars",
   club: "Esummit'26",
   title: "Brand Wars",
@@ -573,7 +573,7 @@ const events = [
   },
      { label: "Queries", type: "textarea" }
   ]
-}
+} */
 ];
 function Events() {
 const [searchParams, setSearchParams] = useSearchParams();
