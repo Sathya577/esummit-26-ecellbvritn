@@ -252,6 +252,223 @@ const events = [
      { label: "Queries", type: "textarea" }
   ]
 },
+{
+  slug: "IPL Auction",
+  club: "Esummit'26",
+  title: "IPL Auction",
+  dates: "Dates: 25th - 26thMarch",
+  desc1: "Step into the shoes of an IPL team owner and build your dream squad through a competitive bidding process.",
+  desc:"IPL Auction is an exciting event where participants step into the shoes of team owners and engage in a competitive bidding process to build their dream IPL team. Participants will analyze player performance, strategize their bids, and compete against other teams to assemble the best possible squad within a given budget. The event combines elements of sports management, strategy, and financial decision-making, providing an immersive experience for cricket enthusiasts and aspiring team managers.",
+  team: "6",
+  whatsapp:"https://chat.whatsapp.com/G5q9GdeXWDw3xIorGwYeZr?mode=gi_t",
+  price: "₹1000",
+  paymentRequired: true,
+  prize: "₹5k",
+
+  form: [
+    { label: "Team Name", type: "text" },
+    { label: "Team Size", type: "text" },
+    { label: "Team Leader Name", type: "text" },
+    { label: "Team Leader's College Name", type: "text" },
+     { label: "Team Leader's year&branch", type: "text" },
+    { label: "Team Leader's Email", type: "email" },
+    { label: "Team Leader's Phone Number", type: "tel" },
+    { label: "Transaction ID", type: "text" },
+   {
+    label: "Team Member 1 Name",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 1 Email",
+    type: "email"
+  },
+
+  {
+    label: "Team Member 1 Phone",
+    type: "tel"
+  },
+
+  {
+    label: "Team Member 1 College",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 1 Branch",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 1 Year",
+    type: "select",
+    options: ["1", "2", "3", "4"]
+  },
+
+  {
+    label: "Team Member 2 Name",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 2 Email",
+    type: "email"
+  },
+
+  {
+    label: "Team Member 2 Phone",
+    type: "tel"
+  },
+
+  {
+    label: "Team Member 2 College",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 2 Branch",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 2 Year",
+    type: "select",
+    options: ["1", "2", "3", "4"]
+  },
+  {
+    label: "Team Member 3 Name",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 3 Email",
+    type: "email"
+  },
+
+  {
+    label: "Team Member 3 Phone",
+    type: "tel"
+  },
+
+  {
+    label: "Team Member 3 College",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 3 Branch",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 3 Year",
+    type: "select",
+    options: ["1", "2", "3", "4"]
+  },
+  {
+    label: "Team Member 4 Name",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 4 Email",
+    type: "email"
+  },
+
+  {
+    label: "Team Member 4 Phone",
+    type: "tel"
+  },
+
+  {
+    label: "Team Member 4 College",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 4 Branch",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 4 Year",
+    type: "select",
+    options: ["1", "2", "3", "4"]
+  },
+  {
+    label: "Team Member 5 Name",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 5 Email",
+    type: "email"
+  },
+
+  {
+    label: "Team Member 5 Phone",
+    type: "tel"
+  },
+
+  {
+    label: "Team Member 5 College",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 5 Branch",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 5 Year",
+    type: "select",
+    options: ["1", "2", "3", "4"]
+  },
+  {
+    label: "Team Member 6 Name",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 6  Email",
+    type: "email"
+  },
+
+  {
+    label: "Team Member 6 Phone",
+    type: "tel"
+  },
+
+  {
+    label: "Team Member 6 College",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 6 Branch",
+    type: "text"
+  },
+
+  {
+    label: "Team Member 6 Year",
+    type: "select",
+    options: ["1", "2", "3", "4"]
+  },
+  
+  {
+    label: "Transaction ID",
+    type: "text"
+  },
+
+  {
+    label: "Payment Screenshot",
+    type: "file",
+    accept: "image/*"
+  },
+     { label: "Queries", type: "textarea" }
+  ]
+},
  
 
 
