@@ -35,7 +35,7 @@ const events = [
 },
 
 
-/* {
+{
   slug: "Ad Arena",
   club: "Esummit'26",
   title: "Ad Arena",
@@ -252,10 +252,10 @@ const events = [
      { label: "Queries", type: "textarea" }
   ]
 },
- */
+ 
 
 
-/* {
+ {
   slug: "Investment Arena",
   club: "Esummit'26",
   title: "Investment Arena",
@@ -413,9 +413,9 @@ const events = [
   },
      { label: "Queries", type: "textarea" }
   ]
-}, */
+}, 
 
-/* {
+ {
   slug: "Brand Wars",
   club: "Esummit'26",
   title: "Brand Wars",
@@ -573,7 +573,7 @@ const events = [
   },
      { label: "Queries", type: "textarea" }
   ]
-} */
+} 
 ];
 function Events() {
 const [searchParams, setSearchParams] = useSearchParams();
