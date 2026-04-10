@@ -46,7 +46,7 @@ const events = [
   whatsapp:"https://chat.whatsapp.com/G5q9GdeXWDw3xIorGwYeZr?mode=gi_t",
   price: "₹400",
   paymentRequired: true,
-  prize: "₹5K",
+  prize: "",
 
   form: [
     { label: "Team Name", type: "text" },
@@ -483,7 +483,7 @@ const events = [
   whatsapp:"https://chat.whatsapp.com/BQKTkODBJH24GlPst51mhu?mode=gi_t",
   dates: "Dates: 26th March",
   paymentRequired: true,
-  prize: "₹5K",
+  prize: "",
 
   
   form: [
@@ -643,7 +643,7 @@ const events = [
   whatsapp:"https://chat.whatsapp.com/ILQH6RsscvAEpzmj5x5GwH?mode=gi_t",
   price: "₹400",
   paymentRequired: true,
-  prize: "₹5K",
+  prize: "",
 
   
   form: [
